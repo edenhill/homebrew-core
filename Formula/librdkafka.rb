@@ -15,6 +15,7 @@ class Librdkafka < Formula
   depends_on "pkg-config" => :build
   depends_on "lz4"
   depends_on "lzlib"
+  depends_on "zstd"
   depends_on "openssl"
 
   def install
