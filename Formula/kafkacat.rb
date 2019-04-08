@@ -4,7 +4,6 @@ class Kafkacat < Formula
   url "https://github.com/edenhill/kafkacat.git",
       :tag      => "1.4.0",
       :revision => "e685f7e05a184e06a9a1a34abffbb3676a2d6f95"
-  revision 1
 
   bottle do
     cellar :any
